@@ -1,0 +1,24 @@
+{
+  "name": "azure-foundry-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "quick-start": "ts-node src/quick-start.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@azure/ai-projects": "^1.0.0-beta.10",
+    "@azure/identity": "^4.10.2",
+    "@azure/openai": "^2.0.0",
+    "dotenv": "^17.2.0"
+  }
+}
