@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "quick-start": "ts-node src/quick-start.ts",
+    "chat-with-agent": "ts-node src/chat-with-agent.ts",
+    "add-file-to-agent": "ts-node src/add-file-to-agent.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +21,7 @@
     "@azure/ai-projects": "^1.0.0-beta.10",
     "@azure/identity": "^4.10.2",
     "@azure/openai": "^2.0.0",
+    "@azure/openai-assistants": "^1.0.0-beta.6",
     "dotenv": "^17.2.0"
   }
 }
