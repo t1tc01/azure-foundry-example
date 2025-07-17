@@ -2,6 +2,9 @@
 
 A TypeScript example project demonstrating how to use Azure OpenAI services with the Azure AI Projects SDK.
 
+## What is Azure Foundry 
+https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry
+
 ## Prerequisites
 
 - Node.js (version 18 or higher)
@@ -40,7 +43,7 @@ A TypeScript example project demonstrating how to use Azure OpenAI services with
      az login
      ```
    
-   - **Environment Variables:**
+   - **Environment Variables:** (Optional)
      ```bash
      export AZURE_CLIENT_ID=your-client-id
      export AZURE_CLIENT_SECRET=your-client-secret
